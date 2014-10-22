@@ -1,0 +1,234 @@
+/*index page*/
+/*Header*/
+#header{
+ width: 1000px;
+ overflow: hidden;
+ margin: 0px auto;
+ height:50px;
+ position: relative;
+ padding: 0px 0px 0px 0px;
+ color:white;
+ background-image: url("http://localhost:8080/CDStore/resources/images/space.jpg");
+}
+#header-image{
+ margin-right:400px;
+ float:left;
+}
+#phrase{
+ color:white;
+ font-size: 35pt;
+}
+#lang a{
+color:white;
+}
+/*Menu*/
+#menu{
+ width: 1000px;
+ overflow: hidden;
+ margin: 0px auto;
+ margin-top:5px;  
+ position: relative;
+ padding: 0px 0px 0px 0px;   
+}
+#menu button{
+ font-weight:900;
+ width:150px;
+ border-radius: 16px 16px 0px 0px;
+ -moz-border-radius:16px 16px 0px 0x;
+ -khtml-border-radius: 16px 16px 0px 0px;	
+}
+.button_no_fixed{
+background-color: #29C5E6;
+}
+.button_fixed{
+background-color: red;
+}
+/*container include content,footer*/
+#container {
+ width: 1000px;
+ overflow: hidden;
+ margin: 0px auto;
+ background: none repeat scroll 0% 0% white;
+ position: relative;
+ padding: 0px 0px 0px 0px;
+ background-image: url("http://localhost:8080/CDStore/resources/images/swirl_pattern.png");      
+}    
+#content{
+margin-right:15px;
+margin-left:15px;
+
+}
+#footer{
+ border-top: 2px solid black;
+ border-bottom: 6px solid black;
+ height:100px;
+ width:100%;
+ margin-top:60px;
+ background-image: url("http://localhost:8080/CDStore/resources/images/footerfinal.jpg"); 
+}
+
+/*info page*/
+#imagetable td {
+ text-align:center; 
+ color:red;
+ font-weight:900;
+ font-size:20pt;
+}
+#imagetable{	 
+ margin-left:35px;
+ margin-bottom:35px;
+}
+/*catalog page*/
+/*wrapper include section display search*/
+#wrapper{    
+  width:100%;
+  height:120px;  
+}
+.section{
+ margin-top: 10px;
+ margin-bottom: 10px;
+ margin-right: 0px;
+ margin-left: 10px;
+ float:left;   
+}
+#type, #genre {    
+    border: 1px solid #e7e7e7;
+    height: 30px;
+    width: 120px;   
+    vertical-align: top;
+}
+#search{   
+    border: 1px solid #e7e7e7;
+    height: 30px;  
+    padding: 0 10px;
+    vertical-align: top;
+    width: 600px;
+}
+#display li:hover{
+ background: white;
+}
+#resultlable{
+ text-align:center;
+ font-weight:900;
+ width:100%;
+ height:15px;
+ background: #2e6bab ;
+ font-size:10pt;
+ color:white;
+	
+}
+#triangle{
+ width: 0;
+ height: 0;
+ margin:auto;
+ border-style: solid;
+ border-width: 20px 25px 0 25px;
+ border-color: #2e6bab transparent transparent transparent;
+}
+/*result table of search*/
+#innertable{
+  width:100%;
+ color:white;
+ background:#29C5E6; 
+}
+#innertable table{
+ border-collapse: collapse;    
+}
+#innertable thead{
+ background:rgba(101, 128, 134, 1);
+}
+#innertable tr{
+ border: 1px solid white;
+}
+#innertable tr:hover{
+ cursor:default;
+ background:rgba(101, 128, 134, 1);
+ border: 1px solid white;
+}
+/*content in inner table*/
+.odertd{
+ width:50px;
+}
+.typetd{
+ text-align: center;
+ width:100px;
+}
+.genretd{
+ text-align: center;
+ width:100px;
+}
+.nametd{
+ width:800px;
+}
+.rowtd{
+ height:30px;
+ font-weight:900;
+}
+/*paginator part*/
+#bottomlable{	
+ margin-top:5px;
+ margin-bottom:5px;
+ width:100%;
+ height:15px;
+ background: #2e6bab ;
+ font-size:10pt;
+ color:white;	
+}
+#paginator{
+ display:inline;
+ width:100%;
+}
+.pag{
+ font-weight:900;
+ background:#29C5E6;	
+}
+#pagepag{
+ color:#29C5E6;
+ font-size:15pt;
+}
+#basket{
+ font-weight:900;
+ float:right;
+ background-color: rgba(13, 204, 137, 1);
+}
+#ok{
+ height:30px;
+ float:right;
+ color:#0DCC89;	
+}
+/*cart page*/
+#cartTable{
+ text-align:center;
+ width:100%;
+ margin-bottom:30px;
+}
+.minus, .plus{
+	background:red;
+	font-weight:900;
+}
+#summa{
+margin-right:200px;
+float:right;
+width:100px;
+color:red;
+height:60px;
+font-weight:900;
+}
+/*general*/
+body {
+ font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+ background-image: url("http://localhost:8080/CDStore/resources/images/fon.png");   
+}
+ul {   
+    padding: 0;
+}
+li {  
+    display: block;
+    border-bottom: 1px;
+}
+button {
+    color: #fff;    
+    border: none;
+    height: 30px;
+    font-family: 'Oswald', sans-serif;
+}
